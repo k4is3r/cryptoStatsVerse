@@ -1,9 +1,20 @@
 import React from 'react'
+import { Swtich, Route, Link} from 'react-router-dom';
+import { Layout, Typography, Space } from 'antd';
+
 
 const App = () => {
     return (
-        <div>
-            <h1>Hello from react</h1>
+        <div className="app">
+            <div className="navbar">
+
+            </div>
+            <div className="main">
+
+            </div>
+            <div className="footer">
+
+            </div>
         </div>
     )
 }
